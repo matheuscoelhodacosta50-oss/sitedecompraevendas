@@ -23,3 +23,5 @@ document.getElementById("compra").addEventListener("submit", function (event) {
 
     window.location.href = "acompanhamento.html";
 });
+
+
