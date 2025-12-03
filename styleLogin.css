@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background: url('fundo.jpg') center/cover no-repeat fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont {
+    width: 320px;       
+    max-width: 320px;   
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 70px;   
+    height: auto;
+    border-radius: 50%;
+}
+.container {
+    width: 100%;               
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.esqueci {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.conta {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(247, 40, 40);
+}
+label {
+    font-size: 18px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+}
+

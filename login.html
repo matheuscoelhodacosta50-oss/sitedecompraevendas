@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="styleLogin.css">
+</head>
+<body>
+    <div class="cont">
+        <header>
+            <img class="logo" src="logo.jpg" alt="logo do site">
+        </header>
+        <div class="container">
+            <h1>Login</h1>
+            <form>
+                <div class="login">
+                    <label for="Nome">Nome</label>
+                    <input type="text" placeholder="Nome"
+                        pattern="[a-zA-Z ]+" title="Não pode número e @ ou #" required>
+                    <label for="Senha">Senha</label>
+                    <input type="password" placeholder="Senha" required>
+                    <div class="esqueci">
+                        <input type="checkbox">
+                        <p>lembre-me</p>
+                        <a href="esqueciSenha.html">esqueci minha senha</a>
+                    </div>
+                    <button type="submit">Login</button>
+                    <div class="conta">
+                        <p>não tem uma conta?
+                            <a href="cadastro.html">criar conta</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="scriptlogin.js"></script>
+</body>
+</html>
