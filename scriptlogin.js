@@ -16,7 +16,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
 
         alert("Login realizado com sucesso!");
         localStorage.setItem("tentativas", "0");
-        window.location.href = "index.html"; 
+        window.location.href = "casa.html"; 
         return;
     }
 

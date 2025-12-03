@@ -25,3 +25,5 @@ document.getElementById("compra").addEventListener("submit", function (event) {
 });
 
 
+const usuario = localStorage.getItem("usuario");
+

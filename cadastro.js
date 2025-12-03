@@ -100,5 +100,5 @@ document.querySelector("form").addEventListener("submit", function (e) {
     localStorage.setItem("tentativas", 0); 
 
     alert("Cadastro concluído! Redirecionando para o login...");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 });
